@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+class ${1:MyClass} extends Exception{
+	
+	public ${1:MyClass}(){
+		super("${1:MyClass}");
+	}
+	public ${1:MyClass}(String s){
+		super(s);
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ecl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+	<description>Exception Class</description>
+</snippet>

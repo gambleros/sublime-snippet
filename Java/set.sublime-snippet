@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+public void set${1/(.*)/\u$1/:[ Prop name ]}(${2:int} ${1:[ Prop name ]}){
+	this.${1:[ Prop name ]}=${1:[ Prop name ]};
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_set</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+	<description>set()</description>
+</snippet>
