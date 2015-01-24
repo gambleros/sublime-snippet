@@ -10,7 +10,7 @@
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 </head>
 <body>
-	$1
+	$0
 	<script type="text/javascript"></script>
 </body>
 </html>
@@ -19,6 +19,6 @@
 	<tabTrigger>jqui</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
-	<description>jquery-UI project</description>
+	<description>jqueryUiTemplate</description>
 </snippet>
 
