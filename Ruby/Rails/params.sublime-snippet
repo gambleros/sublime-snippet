@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+ def ${1:zombie}_params
+    params.require(:${1:zombie}).permit(${2: :name,:most_wanted})
+ end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>racParams</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>params.require(db_table :tableName).permit(tableItems :item1,...,:itemN)</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+def initialize(options={})
+	${1:@item1=options[:name]
+	@itemN=options[:num]||"0000"}
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>initHash</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>class hash consturctor</description>
+</snippet>

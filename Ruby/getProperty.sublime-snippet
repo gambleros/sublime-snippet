@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+attr_reader ${1::item1}, ${2::itemN}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>attrReader</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>attr_reader(:symbol1,:symbolN)</description>
+</snippet>
