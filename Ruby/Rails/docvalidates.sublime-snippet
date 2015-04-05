@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+${1:# uniqueness: { scope: :year,message: "should happen once per year" \},uniqueness: { case_sensitive: false \}
+# absence: true , numericality {equal_to:2,less_than:3\},{odd:true\},{even:true\}
+# numericality: { only_integer: true ,greater_than:5,greater_than_or_equal_to:3\}
+# length: {maximum:3,too_short:msg,too_long:msg,tokenizer: lambda { |str| str.split(/\s+/) \}\}
+# length: { in: 6..20 \}, length: { is: 3 \} ,confirmation: true 
+# =Validation Options
+# allow_nil=true,allow_blank=true,message:"Custom error msg",on: :create||:update
+# example1 presence: true,allow_nil=true
+# if: :method_name,unless: :method_name
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>docvalidates</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>Validation Documentation</description>
+</snippet>

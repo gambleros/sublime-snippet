@@ -1,10 +1,13 @@
 <snippet>
 	<content><![CDATA[
-root "${1:mypage#new}"
+concern ${1::commentable} do
+  resources ${2::images, only: :index}
+end
+${3:#resources :messages, concerns: :commentable||[:commentable, :myconcern] }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>root</tabTrigger>
+	<tabTrigger>concern</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>root "controller#action"</description>
+	<description>concern :symbol</description>
 </snippet>

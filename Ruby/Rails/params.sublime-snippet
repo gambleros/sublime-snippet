@@ -5,8 +5,8 @@
  end
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>racParams</tabTrigger>
+	<tabTrigger>defparams</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>params.require(db_table :tableName).permit(tableItems :item1,...,:itemN)</description>
+	<description>params.require(db_Table).permit(db_Columns)</description>
 </snippet>

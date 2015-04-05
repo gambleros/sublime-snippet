@@ -3,8 +3,8 @@
 pluralize(${1:1},${2:"person"})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>raPluralize</tabTrigger>
+	<tabTrigger>pluralize</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.ruby</scope>
+	<scope>source.ruby,text.html</scope>
 	<description>pluralize(Number,String)</description>
 </snippet>

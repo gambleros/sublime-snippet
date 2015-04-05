@@ -1,10 +1,11 @@
 <snippet>
 	<content><![CDATA[
-root "${1:mypage#new}"
+before_${1:validation} ${2::my_method}
+${3:#doccallback}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>root</tabTrigger>
+	<tabTrigger>before</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>root "controller#action"</description>
+	<description>before_callback Method</description>
 </snippet>

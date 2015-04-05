@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-root "${1:mypage#new}"
+resources ${1::tweets}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>root</tabTrigger>
+	<tabTrigger>resources</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>root "controller#action"</description>
+	<description>resources :symbol</description>
 </snippet>

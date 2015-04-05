@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+validates ${1::name},${2:presence: true,}
+				${3:format: { with: regex,message: "msg if regex don't match" \},}
+				${4:length: { minimum: 2 \},}
+				${5:numericality: true,}
+				${6:uniqueness: true}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>validates</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>validates db_Column,Validators</description>
+</snippet>

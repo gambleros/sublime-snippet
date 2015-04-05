@@ -1,10 +1,11 @@
 <snippet>
 	<content><![CDATA[
-root "${1:mypage#new}"
+#Model
+has_many ${1::orders, dependent: :destroy}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>root</tabTrigger>
+	<tabTrigger>has_many</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>root "controller#action"</description>
+	<description>has_many :db_Table</description>
 </snippet>
